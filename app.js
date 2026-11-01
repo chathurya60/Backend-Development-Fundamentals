@@ -23,6 +23,8 @@ app.use((request, response) => {
   response.status(404).send('404 - Page Not Found');
 });
 
-app.listen(3000, () => {
-  console.log('Server running at http://localhost:3000');
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
 });
