@@ -1,50 +1,95 @@
+# Lab 1: Node.js and Express Server
 
-Lab 1: Node.js and Express server:
+**Name:** G. Reddy Chathurya 
+**Registration Number:** 252U1R6087  
+**Section:** S02
 
-Name: G Reddy Chathurya
-Registration Number: 252U1R6087
-Section: S02
+## Live Link
 
-Live Link:
+Not deployed yet.
 
-Not deployed yet
+## Objective
 
-How to Run:
+To create a web server using Node.js and Express.js, implement different GET routes, and understand how a server handles requests and responses.
 
-1. Install Node.js.
-2. Clone the repository.
-3. Install dependencies:
+## Technologies Used
 
-   npm install
+- Node.js
+- Express.js
+- JavaScript
+- Git and GitHub
 
-4. Start the server:
+## How to Run
 
-   node app.js
+### Prerequisites
 
-Endpoints:
+Install Node.js and npm.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/chathurya60/Backend-Development-Fundamentals.git
+```
+
+Navigate to the lab folder:
+
+```bash
+cd Backend-Development-Fundamentals/lab-01
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the Express server:
+
+```bash
+node app.js
+```
+
+The server will run at:
+
+http://localhost:3000
+
+## Endpoints
 
 | Method | Path | Description |
 |---|---|---|
-| GET | / | Welcome message |
-| GET | /about | Returns name and section |
-| GET | /time | Returns current date and time |
+| GET | `/` | Displays the welcome message |
+| GET | `/about` | Returns name and section as JSON |
+| GET | `/time` | Displays the current date and time |
+| GET | `/hello` | Returns a 404 page not found response |
 
-Screenshots:
+## Screenshots
 
-Home:
-![Home](<Home.png>)
+### 1. Home Page
 
+Displays the welcome message.
 
-About:
-![About](<About.png>)
+<img src="screenshots/Home.png" width="600" alt="Home Page">
 
-Time:
-![Time](<Time.png>)
+### 2. About Page
 
-404:
-![Not Found](<NotFound.png>)
+Displays the name and section in JSON format.
 
-Notes:
+<img src="screenshots/About.png" width="600" alt="About Page">
 
-Created a server using Node.js and Express.
-Tested all routes and verified status codes.
+### 3. Time Page
+
+Displays the current date and time.
+
+<img src="screenshots/Time.png" width="600" alt="Time Page">
+
+### 4. 404 Page
+
+Displays the error message for an unknown route.
+
+<img src="screenshots/NotFound.png" width="600" alt="404 Page">
+
+## Notes
+
+This lab helped me understand the basics of Node.js and Express.js. I learned how to create a server, define routes, handle requests and responses, and return appropriate status codes. I also learned how to use Git and GitHub to maintain and submit my project.
