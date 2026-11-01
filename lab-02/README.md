@@ -1,8 +1,8 @@
 # Lab 2: SQLite Database and CRUD Routes
 
-**Name:** Your Name  
-**Registration Number:** Your Registration Number  
-**Section:** Your Section
+**Name:** G. Reddy Chathurya  
+**Registration Number:** 252U1R6087
+**Section:** S02
 
 ## Live Link
 
