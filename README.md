@@ -32,17 +32,17 @@ Endpoints:
 Screenshots:
 
 Home:
-![Home](<Screenshot 2026-10-31 at 10.14.22 PM.png>)
+![Home](<Home.png>)
 
 
 About:
-![About](<Screenshot 2026-10-31 at 10.22.54 PM.png>)
+![About](<About.png>)
 
 Time:
-![Time](<Screenshot 2026-10-31 at 10.27.48 PM.png>)
+![Time](<Time.png>)
 
 404:
-![Not Found](<Screenshot 2026-10-31 at 10.33.11 PM.png>)
+![Not Found](<NotFound.png>)
 
 Notes:
 
