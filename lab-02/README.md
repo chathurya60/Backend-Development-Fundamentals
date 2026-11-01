@@ -6,7 +6,7 @@
 
 ## Live Link
 
-Not deployed yet.
+[View Live Application](https://lab-2-books-api.onrender.com/)
 
 ## Objective
 
@@ -100,11 +100,17 @@ Deletes a book from the database and displays the success response.
 
 <img src="screenshots/delete-book.png" width="600" alt="DELETE Book">
 
-### 6. Database View
+### 6. After CRUD Operations
 
-Displays the book records in the SQLite database after performing CRUD operations.
+Displays the book records after performing CRUD operations.
 
-<img src="screenshots/database-view.png" width="600" alt="Database View">
+<img src="screenshots/book-records-view.png" width="600" alt="Database View">
+
+### 7. Book Not Found
+
+The server returns a 404 Not Found status with the message “Book not found.”
+
+<img src="screenshots/book-not-found.png" width="600" alt="Book Not Found">
 
 ## Notes
 
